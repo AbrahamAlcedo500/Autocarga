@@ -74,6 +74,20 @@ public function getName():string
 }
 ?>
 
+## Clase ProductModel
+
+php
+
+namespace Database\Model;
+
+Class ProductModel{
+
+ public function getId():Int
+ {
+    return 123;
+ }
+}
+
 ## Archivo Principal
 
 php
@@ -85,7 +99,10 @@ require "vendor/autoload.php";
 
 $user = new User;
 echo $user->getName();
+echo "\n";
 
+$product = new ProductModel();
+echo $product->getId();
 
 ## Prueba de ejecucion
 <img width="511" height="185" alt="image" src="https://github.com/user-attachments/assets/6489ad20-9536-42ed-9000-8143764927cf" />
