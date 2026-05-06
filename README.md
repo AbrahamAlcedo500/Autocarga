@@ -86,10 +86,10 @@ require "vendor/autoload.php";
 $user = new User;
 echo $user->getName();
 
-#Prueba de ejecucion
+##Prueba de ejecucion
 <img width="511" height="185" alt="image" src="https://github.com/user-attachments/assets/6489ad20-9536-42ed-9000-8143764927cf" />
 
-# Conclusiones Técnicas
+##Conclusiones Técnicas
 
 ## Mantenibilidad
 
