@@ -62,8 +62,6 @@ json
 
 php
 
-<?php
-
 namespace App;
 
 Class User {
@@ -79,7 +77,6 @@ public function getName():string
 ## Archivo Principal
 
 php
-<?php
 
 use App\User;
 use Database\Model\ProductModel;
