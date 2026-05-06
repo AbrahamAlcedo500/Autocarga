@@ -50,7 +50,8 @@ json
 {
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\":"App/",
+            "Database\\":"Database/"
         }
     }
 }
